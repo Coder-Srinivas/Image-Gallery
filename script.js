@@ -1,4 +1,4 @@
-const url = '/data.json';
+const url = '/Image-Gallery/data.json';
 
 const main = document.getElementById("main");
 fetch(url).then(response => response.json()).then(data => displayImages(data));
